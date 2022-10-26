@@ -1,0 +1,9 @@
+1 - Mudar a velocidade de enchimento da caixa. Precisamos que seja mais rápido 
+
+2 - Mudar o comportamento da caixa. Precisamos de uma privada inteligente. Teremos opção 1 quando o usuário fizer a opção 1 e opção 2 para um serviço mais completo por parte do usuário.
+
+3 - Para o numero 2 a vazão de água deve ser o dobro da vazão do numero 1
+
+4 - Mostrar o status da descarga até ela estar vazia.
+
+5 - Fazer testes de validação antes de encher a caixa e antes de esvaziar

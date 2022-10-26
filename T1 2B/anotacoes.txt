@@ -1,0 +1,5 @@
+O método destrutor __del__ é acionado toda vez que as referencias ao objeto são deletadas
+
+__del__ is a destructor method which is called as soon as all references of the object are deleted
+
+Exemplo na pratica: https://drive.google.com/file/d/15wjOq6H2n-cyhkh-0UtxfbcoA3FJ8iJA/view?usp=sharing
