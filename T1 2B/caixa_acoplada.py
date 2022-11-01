@@ -29,8 +29,11 @@ class CaixaAcoplada(object):
 
     def encher_caixa(self):
         '''Encher caixa da agua'''
+        #self.comporta.abrir()
+        self.comporta.fechar()
         statusComporta = self.comporta.get_status()
-        print(statusComporta)
+        print(self.comporta.get_status())
+        
         if statusComporta == 'FECHADA':
             print("Encher a caixa d'a gua")
             while self.nivel_agua < self.nivel_maximo:
@@ -38,8 +41,10 @@ class CaixaAcoplada(object):
                 if self.nivel_agua > self.nivel_maximo:
                     self.nivel_agua = self.nivel_maximo
             print("Nível de d'agua: " + str(round(self.nivel_agua,2))) 
+        
         elif statusComporta == 'ABERTA':
             print('Comporta Aberta, não foi possível encher')
+        
         else:
             print('Não foi possível acessar o status da comporta')
 

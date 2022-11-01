@@ -15,21 +15,21 @@ class ComportaVedacao(object):
   
   def __init__(self):
     '''Método Construtor'''
-    self.status = 'Desconhecido'
+    self.__status = ''
 
   def __del__(self):
     '''Método Destrutor'''
   
   def abrir(self):
     '''Abertura da comporta de vedacao '''
-    self.status = 'ABERTA'
+    self.__status = 'ABERTA'
     print('Função de abrir comporta ativada')
 
   def fechar(self):
     '''Fechamento da comporta de vedação'''
-    status = 'FECHADA'
+    self.__status = 'FECHADA'
     print('Função de fechar comporta ativada')
 
   def get_status(self):
     '''Status da comporta de vedação'''
-    return self.status
+    return self.__status
