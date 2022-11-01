@@ -12,8 +12,10 @@ print('\n')
 # Testando modulo de comporta
 print('\n_____ Modulo de Comporta _____\n')
 print(comporta.get_status())
-print(comporta.abrir())
-print(comporta.fechar())
+comporta.abrir()
+print(comporta.get_status())
+comporta.fechar()
+print(comporta.get_status())
 
 print('\n')
 # Testando modulo de alavanca de acionamento
@@ -29,20 +31,25 @@ print(valvula.get_vazao())
 
 print('\n')
 # Testando Modulo da Caixa Acoplada
-print('\n_____ Modulo de Caixa Acoplada _____\n')
+print('\n_____ Comporta Aberta  _____\n')
 comporta.abrir()
+
+print('\n')
 caixa.encher_caixa()
 
 print('\n')
+print('\n_____ Comporta Fechada  _____\n')
 comporta.fechar()
-comporta.get_status()
+print('\n')
 caixa.encher_caixa()
 
 print('\n')
+print('\n_____   Acionar  _____\n')
 caixa.acionar(1)
 caixa.acionar(2)
 
 print('\n')
+print('\n_____ Relatorio  _____\n')
 caixa.relatorio()
 
 print('\n')
