@@ -31,25 +31,16 @@ print(valvula.get_vazao())
 
 print('\n')
 # Testando Modulo da Caixa Acoplada
-print('\n_____ Comporta Aberta  _____\n')
-comporta.abrir()
-
-print('\n')
+print('\n_____  Modulo de Caixa  _____\n')
 caixa.encher_caixa()
 
-print('\n')
-print('\n_____ Comporta Fechada  _____\n')
-comporta.fechar()
-print('\n')
-caixa.encher_caixa()
 
-print('\n')
-print('\n_____   Acionar  _____\n')
+print('\n_____     _____\n')
 caixa.acionar(1)
+print('\n')
 caixa.acionar(2)
 
-print('\n')
-print('\n_____ Relatorio  _____\n')
+print('\n_____   _____\n')
 caixa.relatorio()
 
 print('\n')

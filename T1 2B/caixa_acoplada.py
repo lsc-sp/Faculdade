@@ -59,9 +59,11 @@ class CaixaAcoplada(object):
         if opcao == 1:
             print('Acionamento 1 do vaso santinário')
             self.nivel_agua = 3
+            print(self.nivel_agua)
         if opcao == 2:
             print("Acionamento 2 do vaso sanitário")
             self.nivel_agua = 0
+            print(f'Nivel de agua = {self.nivel_agua}')
 
     def relatorio(self):
         '''Método para emitir relatorio de uso'''
